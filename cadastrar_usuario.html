@@ -1,0 +1,74 @@
+<html>
+<head>
+<title> Cadastro</title>
+<meta charset="utf-8">
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+</head>
+<body>
+<h1>CADASTRO DE USUARIOS</h1> <br> <br>
+<form method="POST" action="cadastro1.php">
+<label>Nome:<br></label><input type="text" name="name" id="name"><br><br>
+<label>CPF : <br></label><input type="text" name="cpf" id="cpf"><br><br>
+<label>RG  :<br></label><input type="text" name="rg" id="rg"><br><br><br>
+<label>Endereço:<br></label><input type="text" name="endereco" id="endereco"><br><br>
+<label>Usuario(Digite o seu E-mail):<br></label><input type="text" name="usuario" id="usuario"><br><br>
+<label>Senha  :<br></label><input type="password" name="senha" id="senha"><br><br>
+<label>Nível  :<br></label><input type="text" name="nivel" id="nivel"><br><br><br>
+<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+</form>
+<br>
+<br>
+
+
+
+<h1>CADASTRO DE PREFEITURAS</h1> <br> <br>
+<form method="POST" action="cadastro2.php">
+<label>CNPJ:<br></label><input type="text" name="CNPJ" id="CNPJ"><br><br>
+<label>Nome : <br></label><input type="text" name="Nome" id="Nome"><br><br>
+<label>Rua  :<br></label><input type="text" name="Rua" id="Rua"><br><br><br>
+<label>Bairro:<br></label><input type="text" name="Bairro" id="Bairro"><br><br>
+<label>Municipio:<br></label><input type="text" name="Municipio" id="Municipio"><br><br>
+<label>Estado  :<br></label><input type="text" name="Estado" id="Estado"><br><br>
+<label>Representante  :<br></label><input type="text" name="Representante" id="Representante"><br><br><br>
+<label>Telefone do(a) Representante:<br></label><input type="text" name="Telefone" id="Telefone"><br><br>
+<label>Licitacao : <br></label><input type="text" name="Licitacao" id="Licitacao"><br><br>
+<label>Contrato  :<br></label><input type="text" name="Contrato" id="Contrato"><br><br><br>
+<label>Inicio do Contrato:<br></label><input type="text" name="Inicio_contrato" id="Inicio_contrato"><br><br>
+<label>Fim do Contrato:<br></label><input type="text" name="Fim_contrato" id="Fim_contrato"><br><br>
+<label>Secretária de Educação  :<br></label><input type="text" name="Secretaria_Educacao" id="Secretaria_Educacao"><br><br>
+<label>Controlador  :<br></label><input type="text" name="Controlador" id="Controlador"><br><br><br>
+<label>Cpf_Controlador  :<br></label><input type="text" name="Cpf_Controlador" id="Cpf_Controlador"><br><br><br>
+<label>Fiscal:<br></label><input type="text" name="Fiscal" id="Fiscal"><br><br>
+<label>Cpf_Fiscal:<br></label><input type="text" name="Cpf_Fiscal" id="Cpf_Fiscal"><br><br>
+<label>email (Representante)  :<br></label><input type="text" name="email" id="email"><br><br>
+<label>Telefone do(a) Fiscal  :<br></label><input type="text" name="telefone_fiscal" id="telefone_fiscal"><br><br><br>
+
+<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+</form>
+<br>
+<br>
+
+<h1>CADASTRO DE ESCOLAS</h1> <br> <br>
+<form method="POST" action="cadastro3.php">
+<label>Nome:<br></label><input type="text" name="Nome" id="Nome"><br><br>
+<label>Latitude : <br></label><input type="text" name="Latitude" id="Latitude"><br><br>
+<label>Longitude  :<br></label><input type="text" name="Longitude" id="Longitude"><br><br><br>
+<label>Municipio:<br></label><input type="text" name="Municipio" id="Municipio"><br><br>
+<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+</form>
+<br>
+<br>
+
+
+
+</body>
+</html>
+
